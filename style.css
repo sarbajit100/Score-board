@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+.main{
+    height: 370px;
+    width: 500px;
+    margin: 100px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.left{
+    background-color: #3d52a3;
+    height: 330px;
+    width: 230px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+}
+.left h2{
+    margin-top: 20px;
+}
+.left div{
+    background-color: #4531b7;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+.left div h1{
+    font-size: 50px;
+    margin-top: 15px;
+}
+.left > h1{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.right{
+    border-radius: 10%;
+    height: 370px;
+    width: 230px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px #a7ada7;
+    
+}
+.right h2{
+    margin-top: 30px;
+    display: flex;
+    float: left;
+}
+.middle{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box{
+    background-color: #807878;
+    height: 40px;
+    width: 200px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+.right button{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(154, 157, 225);
+    margin-top: 10px;
+    border-radius: 10px;
+    transition-delay: 1s;
+    pointer-events: stroke;
+}
+.right button:hover{
+    background-color: #004369;
+    pointer-events: stroke;
+}
+
+.right button:active{
+    background-color: rgb(217, 55, 55);
+  transition: none;
+}
+.box1{
+    background-color: antiquewhite; 
+}
+.box2{
+    background-color: beige;
+}
+.box3{
+    background-color: aquamarine;
+}
+.box4{
+    background-color: steelblue;
+}
+.box i{
+    margin-top: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.box h4{
+    margin-top: 5px;
+    margin-right: 10px;
+}
+@media screen and (max-width: 598px) {
+    .main{
+        height: 740px;
+        width: 250px; 
+        display: flex;
+        flex-direction: column; 
+        
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        
+    }
+}   
